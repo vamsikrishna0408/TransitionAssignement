@@ -1,0 +1,68 @@
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:#f8f8fb;
+    width: 100%;
+    
+  }
+  
+.tab {
+    background-color: #fff;
+    color:#040450 ;
+    font-family: 'Roboto';
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .name-btn{
+        background-color:#d5d5ea ;
+        color: #040450;
+        border-radius: 50px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 5px;
+  }
+  .tab.active {
+    color:#0a8dfe;
+    border-top: 2px solid #0a8dfe;
+    border-left:2px solid #0a8dfe ;
+    border-right:2px solid#0a8dfe ;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info span {
+    margin-right: 1rem;
+  }
+  
+  button {
+    color: #fff;
+    background-color: #0a8dfe;
+    border-radius: 50px;
+    border-color: transparent;
+  }
+  .custom-tab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0a8dfe;
+    color: #fff;
+    font-family: 'Roboto';
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .message-icon-btn{
+    background-color:#2498fe ;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  

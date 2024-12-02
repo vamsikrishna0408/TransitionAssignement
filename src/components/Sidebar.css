@@ -1,0 +1,47 @@
+.left-sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+  }
+.sidebar-container{
+    background-color:#0d1424;
+    padding: 10px;
+    color: #737989;
+  }
+  .sidebar-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  
+  }
+  .list-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+  
+  }
+  .logo{
+    width: 180px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  .icons{
+    font-size: 20px;
+    color:#737989 ;
+    margin-right: 5px;
+  }
+  
+  .list-item:hover{
+    color:#f0f0f0;
+  }
+  .icons:hover{
+    color: #007BFF;
+  }
+  .arrow-icon{
+    margin-left: 5px;
+  }

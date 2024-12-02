@@ -1,0 +1,65 @@
+.top-navigation {
+    background-color:#ffffff;
+    color: gray;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: #ccc;
+    height: 50px;
+  }
+  .nav-menu-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+  }
+  .hod{
+    background-color: #e5ba59;
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    color: #737989;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    
+  }
+  .admin-btn{
+    width: 60px;
+    background-color: #ea42ea;
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .nav-profile-name{
+    font-size: 14px;
+    color: #737989;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+  }
+  .profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .content-container {
+    display: flex;
+    flex: 1;
+  }
+  h2{
+    font-family: 'Roboto';
+    font-size: 25px;
+  }

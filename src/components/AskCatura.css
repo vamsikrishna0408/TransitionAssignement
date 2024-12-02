@@ -1,0 +1,78 @@
+.ask-catura {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .heading{
+    font-family: 'Roboto0';
+    font-size: 22px;
+  }
+  .message-icon-container{
+    display: flex;
+    align-items: center;
+  }
+  .icon{
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .downArrow-icon{
+    font-size: 20px;
+    color: #007BFF;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-options span {
+    margin-left: 10px;
+  }
+  
+  .greeting-template {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .template-content {
+    background-color: #d0d0d0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .template-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .template-buttons{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .input-btn-container{
+    display: flex;
+    align-items: center;
+    
+  }
+  .send-button {
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50px;
+  }
+  .arrow-icon{
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .input-elememt{
+    width: 250px;
+    height: 15px;
+  }
+  

@@ -1,0 +1,157 @@
+.conversation-interface {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #8e94a7;
+}
+
+.escalate-button {
+  width: 100px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.conversation-tab {
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-initials {
+  background-color: #ccc;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.timestamp {
+  color: gray;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.message-body {
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.name-time-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.checked {
+  color: #007BFF;
+}
+
+.input-element{
+  width: 500px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fb;
+}
+
+.highlate {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.check-icon {
+  color: #007BFF;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.input-button-container button {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  
+}
+.input-button-container{
+  display: flex;
+  align-items: center;
+}
+.send-button:hover {
+  background-color: #0056b3;
+}
+.attach-icon{
+  background-color:#f8f9fb ;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
